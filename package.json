@@ -1,0 +1,9 @@
+{
+  "name": "ml-server",
+  "version": "1.0.0",
+  "description": "Enterprise ML Server for XGBoost models",
+  "scripts": {
+    "start": ". venv/bin/activate && python src/main.py",
+    "test": ". venv/bin/activate && python -m pytest tests/"
+  }
+}
